@@ -2,5 +2,5 @@
 # Each line which starts mqsisetdbparms will be run as written 
 # Alternatively each line should specify the <resource> <userId> <password>, separated by a single space
 # Each line will be processed by calling...
-#   mqsisetdbparms ${ACE_SERVER_NAME} -n <resource> -u <userId> -p <password>
+#   mqsisetdbparms ${ACE_SERVER_NAME} -n mq::QMGR::QM_TEST -u admin -p passw0rd
 resource1 user1 password1
